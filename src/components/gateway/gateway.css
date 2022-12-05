@@ -1,0 +1,35 @@
+.gateway {
+  background: #0f0f0f;
+  height: 100vh;
+  background-image: url("../../assets/image/gateway/gatewayback.webp");
+  background-size: cover;
+  overflow: hidden;
+}
+.gateway .row {
+  height: 100%;
+}
+.gateway .left {
+  padding-left: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gateway .left .tag-line h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 86px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.gateway .left .tag-line .dream {
+  color: #ff12bd;
+}
+.gateway .left .tag-line .reality {
+  color: #03ffc3;
+}
