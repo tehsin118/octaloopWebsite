@@ -1,0 +1,82 @@
+.octawork {
+  padding-left: 90px;
+  padding-right: 90px;
+  height: 100vh;
+  background: #0f0f0f;
+  overflow: hidden !important;
+  .row {
+    height: 100%;
+
+    .left {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 !important;
+
+      .octa {
+        font-family: "Century Gothic";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 258.869px;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px #04a8ef;
+        color: transparent;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+      }
+      .work {
+        font-family: "Century Gothic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 258.869px;
+        text-transform: uppercase;
+        // color: transparent;
+        line-height: 1;
+        color: #03f0ff;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 !important;
+  }
+
+  @media only screen and (max-width: 1800px) {
+    .octa,
+    .work {
+      font-size: 215px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .octa,
+    .work {
+      font-size: 180px !important;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .octa,
+    .work {
+      font-size: 150px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .octa,
+    .work {
+      font-size: 140px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .octa,
+    .work {
+      font-size: 130px !important;
+    }
+  }
+}
