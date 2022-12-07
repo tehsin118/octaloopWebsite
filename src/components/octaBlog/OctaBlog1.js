@@ -1,14 +1,14 @@
 import React from "react";
 import "./octaBlog.scss";
-const OctaBlog = () => {
+function OctaBlog1() {
   return (
     <div>
-      <section className="octaBlog">
+      <section className="octaBlog1">
         <div className="octaBlog-content">
           <div className="row top">
             <div className="col-6 left">
               <h1>
-                <span>blockchain</span>
+                <span>Metaverse</span>
               </h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Magnis eget montes mi
@@ -28,7 +28,7 @@ const OctaBlog = () => {
             <div className="col-6 right">
               <div>
                 <img
-                  src="\assets\newLandingPage\octaBlog1.png"
+                  src="\assets\newLandingPage\octaBlog3.png"
                   alt=""
                   className="img-fluid"
                 />
@@ -40,7 +40,7 @@ const OctaBlog = () => {
             <div className="col-6 left">
               <div>
                 <img
-                  src="\assets\newLandingPage\octaBlog2.png"
+                  src="\assets\newLandingPage\octaBlog4.png"
                   alt=""
                   className="img-fluid"
                 />
@@ -48,7 +48,7 @@ const OctaBlog = () => {
             </div>
             <div className="col-6 right">
               <h1>
-                <span>Gamefi</span>
+                <span>crosschain</span>
               </h1>
               <div className="detail-content">
                 <p>
@@ -75,6 +75,6 @@ const OctaBlog = () => {
       </section>
     </div>
   );
-};
+}
 
-export default OctaBlog;
+export default OctaBlog1;

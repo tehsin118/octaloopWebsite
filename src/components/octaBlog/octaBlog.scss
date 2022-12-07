@@ -1,9 +1,871 @@
 .octaBlog {
-  padding: 50px 110px;
   background-color: #0f0f0f;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  width: 100%;
-
   .octaBlog-content {
+    padding: 30px 110px;
+    .top {
+      .left {
+        border: 3.3px solid transparent;
+        border-image-source: linear-gradient(
+          90deg,
+          #298bdf 0%,
+          rgba(41, 139, 223, 0) 98.54%
+        );
+
+        border-image-slice: 1;
+
+        padding: 20px 0px 50px 30px;
+
+        h1 {
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 45px;
+          text-transform: uppercase;
+          color: #ffffff;
+
+          span {
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: -10px;
+              left: 0%;
+              height: 6.5px;
+              width: 100%;
+              background: linear-gradient(
+                90deg,
+                #00d1ff 0%,
+                rgba(0, 209, 255, 0) 100%
+              );
+            }
+          }
+        }
+        p {
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #ffffff;
+          width: 75%;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+
+        a {
+          font-size: 22px;
+          color: #fff;
+          padding: 10px 1rem;
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 600;
+          background: #298bdf;
+          border-radius: 3px;
+          letter-spacing: 0.7px;
+        }
+      }
+
+      .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .bottom {
+      .right {
+        border-radius: 0 17.1105px 17.1105px 0;
+        border: 3.3px solid transparent;
+        border-image-source: linear-gradient(
+          270deg,
+          #dbdf29 0%,
+          rgba(41, 139, 223, 0) 98.54%
+        );
+
+        border-image-slice: 1;
+        padding: 30px 30px 30px 0px;
+
+        h1 {
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 45px;
+          text-transform: uppercase;
+          color: #ffffff;
+          text-align: end;
+
+          span {
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: -10px;
+              left: 0%;
+              height: 6.5px;
+              width: 100%;
+              background: linear-gradient(
+                90deg,
+                #dbdf29 0%,
+                rgba(219, 223, 41, 0) 100%
+              );
+              transform: matrix(-1, 0, 0, 1, 0, 0);
+            }
+          }
+        }
+
+        .detail-content {
+          display: flex;
+          justify-content: end;
+          p {
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #ffffff;
+            width: 75%;
+            margin-top: 23px;
+            margin-bottom: 30px;
+          }
+
+          a {
+            font-size: 29.6px;
+            color: #fff;
+            padding: 10px 1rem;
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 400;
+            background: #298bdf;
+            border-radius: 3px;
+          }
+        }
+
+        .learn {
+          display: flex;
+          justify-content: end;
+          a {
+            font-size: 22px;
+            color: #000;
+            padding: 10px 1rem;
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 600;
+            background: #dbdf29;
+            border-radius: 3px;
+          }
+
+          .left {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+          }
+        }
+      }
+      .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1900px) {
+    .octaBlog-content {
+      padding: 30px 90px;
+
+      .top {
+        .left {
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          img {
+            max-width: 80%;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .bottom {
+        .right {
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          img {
+            max-width: 80%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .octaBlog-content {
+      padding: 0px 90px;
+
+      .top {
+        .left {
+          padding: 20px 0px 30px 30px;
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: -3px;
+        .right {
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .octaBlog-content {
+      padding: 0px 90px;
+
+      .top {
+        .left {
+          padding: 20px 0px 30px 30px;
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: -3px;
+        .right {
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .octaBlog-content {
+      padding: 0px 70px;
+
+      .top {
+        .left {
+          padding: 10px 0px 20px 20px;
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: -3px;
+
+        .right {
+          width: 60%;
+          padding: 10px 20px 20px 0px;
+
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ------------------------------------------------
+.octaBlog1 {
+  background-color: #0f0f0f;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .octaBlog-content {
+    padding: 30px 110px;
+    .top {
+      .left {
+        border: 3.3px solid transparent;
+        border-image-source: linear-gradient(
+          90deg,
+          #ff12bd 0%,
+          rgba(41, 139, 223, 0) 98.54%
+        );
+
+        border-image-slice: 1;
+
+        padding: 20px 0px 50px 30px;
+
+        h1 {
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 45px;
+          text-transform: uppercase;
+          color: #ffffff;
+
+          span {
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: -10px;
+              left: 0%;
+              height: 6.5px;
+              width: 100%;
+              background: linear-gradient(
+                90deg,
+                #00d1ff 0%,
+                rgba(0, 209, 255, 0) 100%
+              );
+            }
+          }
+        }
+        p {
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #ffffff;
+          width: 75%;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+
+        a {
+          font-size: 22px;
+          color: #fff;
+          padding: 10px 1rem;
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 600;
+          background: #ff12bd;
+          border-radius: 3px;
+          letter-spacing: 0.7px;
+        }
+      }
+
+      .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .bottom {
+      .right {
+        border-radius: 0 17.1105px 17.1105px 0;
+        border: 3.3px solid transparent;
+        border-image-source: linear-gradient(
+          270deg,
+          #ff9266 0%,
+          rgba(41, 139, 223, 0) 98.54%
+        );
+
+        border-image-slice: 1;
+        padding: 30px 30px 30px 0px;
+
+        h1 {
+          font-family: "Century Gothic";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 45px;
+          text-transform: uppercase;
+          color: #ffffff;
+          text-align: end;
+
+          span {
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: -10px;
+              left: 0%;
+              height: 6.5px;
+              width: 100%;
+              background: linear-gradient(
+                90deg,
+                #ff9266 0%,
+                rgba(219, 223, 41, 0) 100%
+              );
+              transform: matrix(-1, 0, 0, 1, 0, 0);
+            }
+          }
+        }
+
+        .detail-content {
+          display: flex;
+          justify-content: end;
+          p {
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #ffffff;
+            width: 75%;
+            margin-top: 23px;
+            margin-bottom: 30px;
+          }
+        }
+
+        .learn {
+          display: flex;
+          justify-content: end;
+          a {
+            font-size: 22px;
+            color: #000;
+            padding: 10px 1rem;
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 600;
+            background: #ff9266;
+            border-radius: 3px;
+          }
+
+          .left {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+          }
+        }
+      }
+      .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1900px) {
+    .octaBlog-content {
+      padding: 30px 90px;
+
+      .top {
+        .left {
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          img {
+            max-width: 80%;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .bottom {
+        .right {
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          img {
+            max-width: 80%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .octaBlog-content {
+      padding: 0px 90px;
+
+      .top {
+        .left {
+          padding: 20px 0px 30px 30px;
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: -3px;
+        .right {
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .octaBlog-content {
+      padding: 0px 90px;
+
+      .top {
+        .left {
+          padding: 20px 0px 30px 30px;
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: -3px;
+        .right {
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .octaBlog-content {
+      padding: 0px 70px;
+
+      .top {
+        .left {
+          padding: 10px 0px 20px 20px;
+          width: 60%;
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+          }
+          a {
+            font-size: 16px;
+
+            padding: 10px 1rem;
+
+            letter-spacing: 0.7px;
+          }
+        }
+        .right {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: -3px;
+
+        .right {
+          width: 60%;
+          padding: 10px 20px 20px 0px;
+
+          h1 {
+            font-size: 30px;
+          }
+          .detail-content {
+            p {
+              font-size: 14px;
+              width: 95%;
+              margin-bottom: 10px;
+            }
+          }
+          .learn {
+            a {
+              font-size: 16px;
+              padding: 10px 1rem;
+              letter-spacing: 0.7px;
+            }
+          }
+        }
+        .left {
+          width: 40%;
+          img {
+            max-width: 70%;
+            margin: 0px;
+          }
+        }
+      }
+    }
   }
 }
