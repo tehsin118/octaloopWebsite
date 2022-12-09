@@ -1,0 +1,40 @@
+.trekverse-gateway {
+  background: url("../../assets/images/trekversegateway/trekverse-bg.png");
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trekverse-gateway .para {
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 95.0303px;
+  line-height: 145px;
+
+  /* color: #00ffd1; */
+}
+
+.trekverse-gateway .youtube-icon {
+  margin: 35px 0px;
+  font-size: 200px !important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1441px) {
+  .trekverse-gateway .youtube-icon {
+    margin: 15px 0px;
+    font-size: 160px !important;
+  }
+  .trekverse-gateway .para {
+    font-family: "Khand";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 105px;
+  }
+}

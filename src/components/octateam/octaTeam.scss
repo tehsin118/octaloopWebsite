@@ -1,0 +1,102 @@
+.octa-team {
+  height: 100vh;
+  background-color: #0f0f0f;
+  overflow: hidden;
+
+  h1.section-head {
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 120px 0 70px 0;
+  }
+
+  .tabs-btn {
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      border: none;
+      font-family: "Century Gothic";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      text-transform: uppercase;
+      color: #ffffff;
+
+      &.active {
+        background: transparent;
+        font-family: "Century Gothic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #ffffff;
+        position: relative;
+        &::before {
+          position: absolute;
+          //   content: url("../../assets/images/octaTeam/activeTop.svg");
+          top: 0%;
+          right: 80px;
+          width: 100%;
+        }
+        &::after {
+          position: absolute;
+          //   content: url("../../assets/images/octaTeam/activeBtm.svg");
+          top: 20px;
+          left: 80px;
+          width: 100%;
+        }
+      }
+    }
+
+    .tabs-btn-key {
+      .tab-card {
+        img {
+          background-color: red !important;
+          border: 2px solid red !important;
+        }
+      }
+    }
+  }
+
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+  }
+  .slick-slide.slick-current {
+    transform: scale(1.1);
+
+    img {
+      border: 2px solid green;
+      position: relative;
+      filter: grayscale(0%) !important;
+
+      &::after {
+        content: "he";
+      }
+    }
+  }
+  .slick-slide {
+    padding: 100px 0;
+  }
+  .slick-slide.slick-active {
+    img {
+      filter: grayscale(100%);
+    }
+  }
+
+  .tab-card {
+    position: relative;
+  }
+
+  .fc {
+    position: relative;
+  }
+}

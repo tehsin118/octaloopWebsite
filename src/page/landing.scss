@@ -1,0 +1,42 @@
+.land {
+  position: relative;
+  height: 100vh;
+
+  //   .progressBar {
+  //     position: sticky;
+  //     left: 0px;
+  //     top: 0px;
+  //     height: 100%;
+  //     width: 100%;
+
+  //     display: flex;
+  //     padding: 0px 100px;
+  //     justify-content: space-between;
+  //     align-content: center;
+
+  //     .social-icos {
+  //       display: flex;
+  //       flex-direction: column;
+  //       justify-content: center;
+  //       order: 2;
+  //       a {
+  //         margin-top: 20px;
+  //       }
+  //     }
+  //     .page-scrollbar {
+  //       display: flex;
+  //       justify-content: center;
+  //       align-items: center;
+  //     }
+  //   }
+
+  .hide-contents#active {
+    // visibility: visible;
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .hide-contents {
+    display: none;
+  }
+}

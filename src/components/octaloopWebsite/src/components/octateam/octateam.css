@@ -1,0 +1,24 @@
+.octa-team {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2196f3;
+  overflow: hidden;
+}
+
+.swipper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swipper-slide {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}

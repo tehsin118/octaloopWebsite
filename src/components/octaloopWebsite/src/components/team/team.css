@@ -1,0 +1,145 @@
+.team-section {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #0f0f0f;
+  /* background-color: red; */
+  color: white;
+  overflow: hidden !important;
+}
+
+.team-section h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+
+  color: #ffffff;
+}
+
+.team-section .team-slider-container {
+  padding: 0px 95px;
+}
+
+.team-section .slick-initialized .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.team-section .team-slider-container div img {
+  height: 300px;
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.team-section .slider-inner-container div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.team-section .slick-center {
+  transform: scale(1.4) !important;
+}
+
+.team-section .content-container {
+  position: relative;
+}
+
+.team-section .content-container .overlay {
+  position: absolute;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 9;
+
+  height: 15%;
+  width: 94%;
+  left: 3%;
+  bottom: 14%;
+}
+
+.team-section .content-container .overlay h3 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.team-section .content-container .overlay h4 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.team-section .content-container .overlay .desination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.team-section .content-container .overlay .desination .linkedin-ico {
+  margin-top: -10px;
+  /* margin-left: 10px; */
+  cursor: pointer;
+}
+
+.team-section .slick-center div img {
+  border: 5px solid #0b98ff;
+  opacity: 1 !important;
+  filter: grayscale(0%) !important;
+  padding: 25px 0px;
+}
+
+.team-section .slick-prev:before {
+  content: url("../../assets/image/staff/director/backarrow.png") !important;
+  position: relative !important;
+  z-index: 99 !important;
+}
+
+.team-section .slick-next:before {
+  content: url("../../assets/image/staff/director/nextarrow.png") !important;
+  position: relative !important;
+  z-index: 99 !important;
+}
+
+.team-section .slick-next {
+  right: -6px !important;
+}
+
+.team-section .slick-prev {
+  left: -60px !important;
+}
+.slick-slide .overlay {
+  display: none;
+}
+
+.slick-slide.slick-current .overlay {
+  display: block !important;
+}
+
+.team-section .content-container .Shadow {
+  position: absolute;
+  background: #0f0f0f;
+  background-blend-mode: darken;
+  z-index: 9;
+  /* opacity: 0.7; */
+  mix-blend-mode: color-dodge;
+
+  height: 15%;
+  width: 90%;
+  left: 3%;
+  bottom: 10%;
+}

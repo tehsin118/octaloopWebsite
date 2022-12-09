@@ -1,5 +1,6 @@
 .MR {
-  background-image: url("../../assets/images/newLandingPage/mrBack.webp");
+  background-image: url("../../assets/images/mrBack.webp");
+
   background-size: cover;
   height: 100vh;
   overflow: hidden;
@@ -92,6 +93,20 @@
     }
   }
 }
+
+.MR-video {
+  height: 100vh;
+  background-image: url("../../assets/images/mrBack.webp");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 15rem;
+    color: #ffffff;
+  }
+}
+
 @media only screen and (max-width: 1850px) {
   .MR {
     padding: 70px 180px;

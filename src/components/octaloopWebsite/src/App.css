@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("./assets/fonts/CenturyGothic.ttf");
+}
+
+@font-face {
+  font-family: "Khand";
+  src: url("./assets/fonts/Khand/Khand-Medium.ttf");
+}
