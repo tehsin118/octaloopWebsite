@@ -17,11 +17,11 @@ import NewLandingPage from "./page/NewLandingPage";
 function App() {
   return (
     <div className="App">
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Gateway />
       <OctaService />
-      <Development />
-      <Trekversegateway />
+      {/* <Development /> */}
+      {/* <Trekversegateway /> */}
       <Octawork />
       <OctaBlog />
       <OctaBlog1 />
