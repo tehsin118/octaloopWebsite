@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       {/* <HeroSection /> */}
       <Gateway />
-      {/* <OctaService /> */}
+      <OctaService />
       {/* <Development /> */}
       {/* <Trekversegateway /> */}
       {/* <Octawork />
