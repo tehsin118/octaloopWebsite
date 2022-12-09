@@ -111,7 +111,7 @@
 }
 
 .team-section .slick-next:before {
-  /* content: url("../../assets/image/staff/director/nextarrow.png") !important; */
+  content: url("../../assets/images/nextarrow.png") !important;
   position: relative !important;
   z-index: 99 !important;
 }

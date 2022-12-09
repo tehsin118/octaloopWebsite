@@ -17,7 +17,7 @@ import NewLandingPage from "./page/NewLandingPage";
 function App() {
   return (
     <div className="App">
-      {/* <HeroSection />
+      <HeroSection />
       <Gateway />
       <OctaService />
       <Development />
@@ -25,8 +25,8 @@ function App() {
       <Octawork />
       <OctaBlog />
       <OctaBlog1 />
-      <MR /> */}
-      <OctaTeam />
+      <MR />
+      {/* <OctaTeam /> */}
       {/* <Team /> */}
 
       {/* <NewFooter /> */}
