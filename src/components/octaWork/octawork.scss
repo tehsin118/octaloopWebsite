@@ -1,3 +1,6 @@
+.octawork-mobile {
+  display: none;
+}
 .octawork {
   padding-left: 90px;
   padding-right: 90px;
@@ -77,6 +80,41 @@
     .octa,
     .work {
       font-size: 130px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .octawork-desktop {
+    display: none;
+  }
+
+  .octawork-mobile {
+    display: block;
+    padding: 48px 25px 32px 25px;
+    .octawork-mobile-content {
+      display: flex;
+      justify-content: center;
+      .octa {
+        font-family: "Century Gothic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49.5321px;
+        line-height: 61px;
+        /* identical to box height */
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px #04a8ef;
+        // border: 0.596605px solid #04a8ef;
+      }
+      .work {
+        font-family: "Century Gothic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49.5321px;
+        line-height: 61px;
+        text-transform: uppercase;
+        color: #03f0ff;
+      }
     }
   }
 }

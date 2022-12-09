@@ -3,7 +3,7 @@ import "./octawork.scss";
 const Octawork = () => {
   return (
     <div>
-      <section className="octawork ">
+      <section className="octawork octawork-desktop">
         <div className="row">
           <div className="left col-6">
             <div>
@@ -18,6 +18,13 @@ const Octawork = () => {
               className="img-fluid"
             />
           </div>
+        </div>
+      </section>
+
+      <section className=" octawork-mobile">
+        <div className="octawork-mobile-content">
+          <h6 className="octa">OCTA</h6>
+          <h6 className="work">Works</h6>
         </div>
       </section>
     </div>

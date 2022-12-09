@@ -96,15 +96,16 @@
   .octa-service {
     height: unset !important;
     padding: 160px 0px;
-  }
-  h1 {
-    font-size: 130px !important;
+
+    h1 {
+      font-size: 130px !important;
+    }
   }
 }
 
 @media only screen and (max-width: 600px) {
   .octa-service {
-    // background-color: #856b6b !important;
+    background-color: #cd9696 !important;
     height: unset !important;
     padding: 150px 0px;
     -webkit-text-stroke: 1px rgb(176, 23, 23) !important;

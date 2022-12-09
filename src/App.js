@@ -22,12 +22,10 @@ function App() {
       <OctaService />
       {/* <Development /> */}
       {/* <Trekversegateway /> */}
-      {/* <Octawork />
+      <Octawork />
       <OctaBlog />
       <OctaBlog1 />
-      <MR /> */}
-      {/* <OctaTeam /> */}
-      {/* <Team /> */}
+      <MR />
 
       {/* <NewFooter /> */}
       {/* ___________________________________ */}
