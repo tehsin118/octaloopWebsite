@@ -73,6 +73,72 @@ function OctaBlog1() {
           </div>
         </div>
       </section>
+
+      <section className="octaBlog1-mobile">
+        <div className="octaBlog-content">
+          <div className=" top">
+            <div className=" left">
+              <h1>
+                <span>Metaverse</span>
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Magnis eget montes mi
+                urna vel ac aliquam viverra facilisis. Nibh ipsum lorem sagittis
+                est tristique sc elerisque. Egestas nulla amet gravida bibendum
+                elit ullamcorper preti um pharetra. Mauris gravida a tempus
+                <br />
+                <br />
+                rat sit arcu scelerisque in dui. Lacus tristique metus quisque
+                elit sit praes ent curabitur. Felis tincidunt laoreet porttitor
+                erat porta. Rhoncus nunc lobortis vivamus morbi laoreet mauris
+                id imperdiet feugiat. Auctor phar etra est enim ligula in urna.
+                Sit senectus
+              </p>
+              <a href="#">Read More</a>
+            </div>
+
+            <div className=" right">
+              <img
+                src="\assets\newLandingPage\octaBlog3.png"
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div className=" bottom">
+            <div className=" left">
+              <h1>
+                <span>crosschain</span>
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Magnis eget montes mi
+                urna vel ac aliquam viverra facilisis. Nibh ipsum lorem sagittis
+                est tristique sc elerisque. Egestas nulla amet gravida bibendum
+                elit ullamcorper preti um pharetra. Mauris gravida a tempus
+                <br />
+                <br />
+                rat sit arcu scelerisque in dui. Lacus tristique metus quisque
+                elit sit praes ent curabitur. Felis tincidunt laoreet porttitor
+                erat porta. Rhoncus nunc lobortis vivamus morbi laoreet mauris
+                id imperdiet feugiat. Auctor phar etra est enim ligula in urna.
+                Sit senectus
+              </p>
+              <div className="read-more-end">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+
+            <div className=" right">
+              <img
+                src="\assets\newLandingPage\octaBlog4.png"
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

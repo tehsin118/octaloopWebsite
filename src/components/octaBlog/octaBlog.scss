@@ -1,6 +1,9 @@
 .octaBlog-mobile {
   display: none;
 }
+.octaBlog1-mobile {
+  display: none !important;
+}
 .octaBlog {
   background-color: #0f0f0f;
   overflow: hidden;
@@ -1020,6 +1023,182 @@
             a {
               padding: 10px 1rem;
               background: #dbdf29;
+              border-radius: 3px;
+              letter-spacing: 0.7px;
+              font-family: "Century Gothic";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 11.9014px;
+              line-height: 15px;
+
+              color: #000;
+            }
+          }
+        }
+
+        .right {
+          img {
+            z-index: -1;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.2;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 764px) {
+  .octaBlog1 {
+    display: none;
+  }
+  .octaBlog1-mobile {
+    display: block !important;
+
+    .octaBlog-content {
+      padding: 00px 30px 0 30px;
+      margin-top: -3px;
+      .top {
+        position: relative;
+        .left {
+          padding: 20px 20px 30px 20px;
+          border: 3.3px solid transparent;
+          border-image-source: linear-gradient(
+            90deg,
+            #ff12bd 0%,
+            rgba(41, 139, 223, 0) 98.54%
+          );
+
+          border-image-slice: 1;
+
+          h1 {
+            span {
+              font-family: "Century Gothic";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 27.3114px;
+              line-height: 33px;
+              text-transform: uppercase;
+              color: #ffffff;
+              position: relative;
+
+              &::after {
+                content: "";
+                position: absolute;
+                bottom: -10px;
+                left: 0%;
+                height: 6.5px;
+                width: 100%;
+                background: linear-gradient(
+                  90deg,
+                  #ff12bd 0%,
+                  rgba(0, 209, 255, 0) 100%
+                );
+              }
+            }
+          }
+
+          p {
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            color: #ffffff;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: justify;
+          }
+
+          a {
+            padding: 10px 1rem;
+            background: #ff12bd;
+            border-radius: 3px;
+            letter-spacing: 0.7px;
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11.9014px;
+            line-height: 15px;
+
+            color: #ffffff;
+          }
+        }
+
+        .right {
+          img {
+            z-index: -1;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.2;
+          }
+        }
+      }
+
+      .bottom {
+        position: relative;
+        margin-top: -2px;
+        margin-bottom: 20px;
+        .left {
+          padding: 20px 20px 30px 20px;
+          border: 3.3px solid transparent;
+          border-image-source: linear-gradient(
+            270deg,
+            #ff9266 0%,
+            rgba(219, 223, 41, 0) 100%
+          );
+
+          border-image-slice: 1;
+
+          h1 {
+            text-align: end;
+            span {
+              font-family: "Century Gothic";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 27.3114px;
+              line-height: 33px;
+              text-transform: uppercase;
+              color: #ffffff;
+              position: relative;
+
+              &::after {
+                content: "";
+                position: absolute;
+                bottom: -10px;
+                left: 0%;
+                height: 6.5px;
+                width: 100%;
+                background: linear-gradient(
+                  270deg,
+                  #ff9266 0%,
+                  rgba(0, 209, 255, 0) 100%
+                );
+              }
+            }
+          }
+
+          p {
+            font-family: "Century Gothic";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            color: #ffffff;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: justify;
+          }
+          .read-more-end {
+            display: flex;
+            justify-content: end;
+            a {
+              padding: 10px 1rem;
+              background: #ff9266;
               border-radius: 3px;
               letter-spacing: 0.7px;
               font-family: "Century Gothic";
