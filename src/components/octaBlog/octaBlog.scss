@@ -488,7 +488,7 @@
               width: 100%;
               background: linear-gradient(
                 90deg,
-                #00d1ff 0%,
+                #ff12bd 0%,
                 rgba(0, 209, 255, 0) 100%
               );
             }
@@ -621,6 +621,8 @@
 
       .top {
         .left {
+          padding: 20px 0px 30px 30px !important;
+
           h1 {
             font-size: 30px;
           }
@@ -640,7 +642,7 @@
         .right {
           img {
             max-width: 80%;
-            margin-bottom: 30px;
+            margin-bottom: 0px;
           }
         }
       }
@@ -960,6 +962,7 @@
             top: 50%;
             transform: translate(-50%, -50%);
             opacity: 0.2;
+            width: 80%;
           }
         }
       }
@@ -1044,6 +1047,7 @@
             top: 50%;
             transform: translate(-50%, -50%);
             opacity: 0.2;
+            width: 80%;
           }
         }
       }
@@ -1056,7 +1060,7 @@
   }
   .octaBlog1-mobile {
     display: block !important;
-
+    // margin-top: 10px;
     .octaBlog-content {
       padding: 00px 30px 0 30px;
       margin-top: -3px;
@@ -1135,6 +1139,7 @@
             top: 50%;
             transform: translate(-50%, -50%);
             opacity: 0.2;
+            width: 80%;
           }
         }
       }
@@ -1220,6 +1225,7 @@
             top: 50%;
             transform: translate(-50%, -50%);
             opacity: 0.2;
+            width: 80%;
           }
         }
       }
