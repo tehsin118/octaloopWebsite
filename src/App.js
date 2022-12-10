@@ -24,7 +24,7 @@ function App() {
       {/* <Trekversegateway /> */}
       <Octawork />
       <OctaBlog />
-      <OctaBlog1 />
+      {/* <OctaBlog1 /> */}
       <MR />
 
       {/* <NewFooter /> */}
