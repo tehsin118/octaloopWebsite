@@ -68,6 +68,25 @@ const MR = () => {
           </section>
         </div>
       )}
+
+      {/* Mobile */}
+      {show ? (
+        <section className="MR-mobile">
+          <div className="tagline">
+            <h1>
+              <span>future is</span> <span>mixed reality</span>
+            </h1>
+            <p>the rise of technology</p>
+          </div>
+        </section>
+      ) : (
+        <div onClick={showtext}>
+          <section className="MR-video">
+            <h1>Video Here</h1>
+          </section>
+        </div>
+      )}
+      {/* ----- */}
     </div>
   );
 };

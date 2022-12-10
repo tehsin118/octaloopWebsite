@@ -25,7 +25,7 @@ function App() {
       <Octawork />
       <OctaBlog />
       <OctaBlog1 />
-      {/* <MR /> */}
+      <MR />
 
       {/* <NewFooter /> */}
       {/* ___________________________________ */}
